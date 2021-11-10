@@ -75,7 +75,7 @@
 }
 .content1{
 position: relative;
-left: 60px;
+left: 130px;
 top: 45px;
 }
 #started{
@@ -88,7 +88,7 @@ top: 45px;
 
 
 .sectionthree{
-    border: 2px solid green;
+    border: none;
     height: 380px;
     background-image: url("images/Rectangle\ 11.png");
     background-position: center;
@@ -98,6 +98,12 @@ top: 45px;
 }
 .sectionthree>.content3{
    text-align: center;
+   position: relative;
+   top: 50px;
+}
+.content3>h2{
+    font-size: xx-large;
+    font-weight: bold;
 }
 .sectionthree>#touch{
     width: 200px;
@@ -107,5 +113,38 @@ top: 45px;
     border: blue;
     position: relative;
     left: 550px;
+    bottom: -60px;
+    
+}
 
+
+
+.sectionfour{
+    border: none;
+    height: 530px;
+
+   
+    
+}
+.card{
+    border: 1px solid gray;
+    width: 350px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 2px grey
+    
+}
+.content4{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+}
+.sectionfour>h3{
+    text-align: center;
+    font-size: xx-large;
+}
+.card>p{
+    position: relative;
+    left: 20px;
 }
