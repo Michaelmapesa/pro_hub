@@ -1,5 +1,5 @@
 .header{
-    border: 2px solid black;
+    border: 1px solid whitesmoke;
     display: flex;
 }
 .header>ul{
@@ -25,12 +25,14 @@
 .header>ul>li>button{
     position: relative;
     right: 30px;
-    padding: 20px;
     width: 140px;
-    color: white;
+    color: whitesmoke;
     background-color: blue;
     font-size: large;
     border: blue;
+    height: 35px;
+    font-weight: bold;
+    
 }
 
 
@@ -56,27 +58,32 @@
 }
 #our{
     background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 1px solid blue;
 }
 #get{
     background: none;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
+    font-weight: bold;
 }
 
 
 .sectiontwo{
-    border: 2px solid red;
+    border: 1px solid white;
     height: 425px;
     display: flex;
 }
 .sectiontwo>.content2>img{
     position: relative;
     right: -250px;
-    top: 28px;
+    top: 35px;
 }
 .content1{
 position: relative;
 left: 130px;
 top: 45px;
+font-style: normal;
 }
 #started{
     width: 200px;
@@ -84,6 +91,7 @@ top: 45px;
     color: white;
     background-color: blue;
     border: blue;
+    font-weight: bold;
 }
 
 
@@ -114,6 +122,7 @@ top: 45px;
     position: relative;
     left: 550px;
     bottom: -60px;
+    font-weight: bold;
     
 }
 
@@ -127,11 +136,11 @@ top: 45px;
     
 }
 .card{
-    border: 1px solid gray;
+    border: 1px solid whitesmoke;
     width: 350px;
     height: 320px;
     border-radius: 5px;
-    box-shadow: 0px 2px grey
+    box-shadow: 2px 6px whitesmoke;
     
 }
 .content4{
@@ -197,7 +206,7 @@ input[type=text]{
 .footer{
     border: 1px solid rgb(16, 29, 55);
     background-color: rgb(16, 29, 55);
-    height: 90px;
+    height: 80px;
     text-align: center;
     color: gray;
 
