@@ -61,3 +61,27 @@
     background: none;
     border: 1px solid white;
 }
+
+
+.sectiontwo{
+    border: 2px solid red;
+    height: 425px;
+    display: flex;
+}
+.sectiontwo>.content2>img{
+    position: relative;
+    right: -250px;
+    top: 28px;
+}
+.content1{
+position: relative;
+left: 60px;
+top: 45px;
+}
+#started{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    border: blue;
+}
