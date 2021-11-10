@@ -194,3 +194,11 @@ input[type=text]{
     border: 1px solid blue;
 
 }
+.footer{
+    border: 1px solid rgb(16, 29, 55);
+    background-color: rgb(16, 29, 55);
+    height: 90px;
+    text-align: center;
+    color: gray;
+
+}
