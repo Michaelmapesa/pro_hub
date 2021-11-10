@@ -1,0 +1,63 @@
+.header{
+    border: 2px solid black;
+    display: flex;
+}
+.header>ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: -300px;
+    
+}
+.logo{
+    position: relative;
+    margin-left: 50px;  
+}
+#logo{
+    color: blue;
+}
+.header>ul>li{
+    margin-right: 70px;
+    font-size: larger;
+    
+    
+}
+.header>ul>li>button{
+    position: relative;
+    right: 30px;
+    padding: 20px;
+    width: 140px;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    border: blue;
+}
+
+
+.sectionone{
+    border: 2px solid black;
+    height: 600px;
+    text-align: center;
+    background-image: url("images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.items1{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: x-large;
+}
+.buttons1>button{
+    width: 200px;
+    color: white;
+    height: 50px;
+    margin-right: 50px;
+}
+#our{
+    background-color: blue;
+}
+#get{
+    background: none;
+    border: 1px solid white;
+}
