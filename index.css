@@ -148,3 +148,49 @@ top: 45px;
     position: relative;
     left: 20px;
 }
+
+
+
+.sectionfive{
+    border: 1px solid blue;
+    height: 550px;
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+.content5{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+.content6{
+border: 1px solid white;
+width: 450px;
+background-color: white;
+color: black;
+height: 400px;
+position: relative;
+right: -350px;
+top: 50px;
+}
+#form{
+    position: relative;
+    left: 50px;
+}
+input[type=text]{
+    width: 300px;
+}
+#lname1{
+    height: 100px;
+    
+}
+#lastbtn{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 150px;
+    position: relative;
+    left: 120px;
+    border: 1px solid blue;
+
+}
